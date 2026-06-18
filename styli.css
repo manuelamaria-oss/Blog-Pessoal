@@ -1,1 +1,124 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
 
+body{
+  background:
+  linear-gradient(
+  135deg,
+  #0f172a,
+  #1e293b
+  );
+
+  color:rgb(128, 230, 125);
+}
+
+header{
+  text-align:center;
+  padding:50px 20px;
+}
+
+header h1{
+  font-size:3rem;
+  color:#60a5fa;
+}
+
+header p{
+  margin-top:10px;
+  color:#db8adb;
+}
+
+#pesquisa{
+  margin-top:25px;
+  width:320px;
+  max-width:90%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+}
+
+.blog{
+  display:grid;
+
+  grid-template-columns:
+  repeat(
+  auto-fit,
+  minmax(280px,1fr)
+  );
+
+  gap:30px;
+
+  padding:40px;
+}
+
+.card{
+  background:#8690a1;
+
+  padding:30px;
+
+  border-radius:20px;
+
+  transition:0.4s;
+
+  text-align:center;
+
+  box-shadow:
+  0 10px 30px
+  rgba(0,0,0,.3);
+}
+
+.card:hover{
+  transform:
+  translateY(-10px);
+
+  background:#334155;
+}
+
+.card h2{
+  color:#f472b6;
+
+  margin-bottom:15px;
+}
+
+.card p{
+  color:#cbd5e1;
+
+  margin-bottom:20px;
+}
+
+.like{
+
+  background:
+  linear-gradient(
+  90deg,
+  #ec4899,
+  #8b5cf6
+  );
+
+  color:white;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-size:16px;
+}
+
+.like:hover{
+  opacity:.8;
+}
+
+.contador{
+  display:block;
+
+  margin-top:15px;
+
+  color:#60a5fa;
+}
